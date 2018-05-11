@@ -7,8 +7,8 @@ const Layer = styled.div.attrs({
     }),
 })`
 	position: absolute;
-	width: 100vw;
-	min-height: 55vw;
+	width: 100%;
+	height: 100%;
 	overflow: hidden;
 `;
 

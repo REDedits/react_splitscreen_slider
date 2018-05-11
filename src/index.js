@@ -11,6 +11,6 @@ ReactDOM.render(<SplitSlider
     TopLayerTitle={'B/W Captain America'}
     TopLayerText={'Inked by Ruben J DelValle'}
     TopLayerSrc={'http://www.rededits.com/projects/images/rjd_art/capamerica_inked_rjd.jpg'}
-    handleColor={'orange'}
-    handleRotation={33} />, document.getElementById('root'));
+    handleColor={'black'}
+    handleRotation={0} />, document.getElementById('root'));
 registerServiceWorker();

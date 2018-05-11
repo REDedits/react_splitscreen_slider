@@ -8,7 +8,7 @@ class SplitSlider extends React.Component {
     constructor(props){
         super(props);
         this.handleMouseMove = this.handleMouseMove.bind(this);
-        this.state = { x: 0, delta: 0, skew: 1000, layerWidth: 50, handle: 50 + '%' };
+        this.state = { x: 0, delta: 0, skew: 1000, layerWidth: 50 + '%', handle: 50 + '%' };
     }
 
     handleMouseMove(event) {
@@ -27,7 +27,7 @@ class SplitSlider extends React.Component {
             degr = -45;
         }
 
-        return 'rotate('+ degr + 'deg) ' + 'translateY(-50%)';
+        return 'rotate('+ degr + 'deg) translateY(-50%)';
     };
 
     render() {

@@ -3,11 +3,11 @@ This component using [React](https://reactjs.org/) and [Styled-Components](https
 
 ```
 <SplitSlider
-	BottomLayerTitle={'input bottom layer title'} 
-	BottomLayerText={'input bottom layer body text'} 
+	BottomLayerTitle={'input bottom layer title'}
+	BottomLayerText={'input bottom layer body text'}
 	BottomLayerSrc={'bottom layer image url'}
-	TopLayerTitle={'input top layer title'} 
-	TopLayerText={'input top layer text'} 
+	TopLayerTitle={'input top layer title'}
+	TopLayerText={'input top layer text'}
 	TopLayerSrc={'top layer image url'}
 	handleColor={'input color hexcode or string'}
 	handleRotation={33} /> // input a number from -45 to 45 degrees for the angle of the slider.

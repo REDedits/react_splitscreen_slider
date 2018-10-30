@@ -8,11 +8,11 @@ class SplitSlider extends React.Component {
     constructor(props){
         super(props);
         this.handleMouseMove = this.handleMouseMove.bind(this);
-        this.state = { x: 0, delta: 0, skew: 1000, layerWidth: 50 + '%', handle: 50 + '%' };
+        this.state = { delta: 0, skew: 1000, layerWidth: 50 + '%', handle: 50 + '%' };
     }
 
     handleMouseMove(event) {
-        let delta = ( event.clientX - window.innerWidth / 2) * 0.5;
+        let delta = event.clientX - window.innerWidth / 2;
         this.setState({
             delta: delta,
             layerWidth: event.clientX + this.state.skew + delta + "px",

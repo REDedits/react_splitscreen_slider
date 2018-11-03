@@ -5,9 +5,9 @@ const ContentWrap = styled.div.attrs({
         transform,
     }),
 })`
-	position: absolute;
+	position: relative;
 	width: 100vw;
-	min-height: 100%;
+	height: 100%;
 `;
 
 export default ContentWrap;
